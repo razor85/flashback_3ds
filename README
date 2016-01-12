@@ -1,0 +1,86 @@
+
+REminiscence README
+Release version: 0.2.1 (Mar 15 2011)
+-------------------------------------------------------------------------------
+
+
+About:
+------
+
+REminiscence is a re-implementation of the engine used in the game Flashback
+made by Delphine Software and released in 1992. More informations about the
+game can be found at [1], [2] and [3].
+
+3DS Version was ported by Romulo Fernandes, with special thanks to 
+WinterMute, profi200 and smea.
+
+
+
+Compiling:
+----------
+
+Run make under msys (from devkitpro)
+
+Installing:
+----------
+
+Copy flashback.3dsx, flashback.smdh and flashback.xml to /3ds/flashback/
+Create a folder '/3ds/flashback/data' and copy the game files to that folder.
+
+
+Data Files:
+-----------
+
+You will need the original files of the PC (DOS or CD) or Amiga release.
+If you have a version distributed by SSI, you'll have to rename the files
+and drop the 'ssi' suffix (ie. logosssi.cmd -> logos.cmd).
+
+To hear background music during polygonal cutscenes with the PC version,
+you'll need to copy the .mod files of the Amiga version :
+
+	mod.flashback-ascenseur
+	mod.flashback-ceinturea
+	mod.flashback-chute
+	mod.flashback-desintegr
+	mod.flashback-donneobjt
+	mod.flashback-fin
+	mod.flashback-fin2
+	mod.flashback-game_over
+	mod.flashback-holocube
+	mod.flashback-introb
+	mod.flashback-jungle
+	mod.flashback-logo
+	mod.flashback-memoire
+	mod.flashback-missionca
+	mod.flashback-options1
+	mod.flashback-options2
+	mod.flashback-reunion
+	mod.flashback-taxi
+	mod.flashback-teleport2
+	mod.flashback-teleporta
+	mod.flashback-voyage
+
+To hear voice during in-game dialogues, you'll need to copy the 'VOICE.VCE'
+file from the SegaCD version to the DATA directory.
+
+Credits:
+--------
+
+Delphine Software, obviously, for making another great game.
+Yaz0r, Pixel and gawd for sharing information they gathered on the game.
+Nicolas Bondoux for sound fixes.
+
+
+Contact:
+--------
+
+Gregory Montoir, cyx@users.sourceforge.net
+Romulo Fernandes, abra185@yahoo.com
+
+
+URLs:
+-----
+
+[1] http://www.mobygames.com/game/flashback-the-quest-for-identity
+[2] http://en.wikipedia.org/wiki/Flashback:_The_Quest_for_Identity
+[3] http://ramal.free.fr/fb_en.htm
